@@ -1,0 +1,52 @@
+body {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.estilo {
+    position: absolute;
+    width: 95%;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 7px silver;
+    margin-top: 30px;
+}
+
+.estilo h1 {
+    color: rgb(39, 94, 143);
+    animation: exemplo 3s;
+    animation-iteration-count: 500000;
+}
+
+.estilo h2 {
+    color: rgb(39, 94, 143);
+    animation: exemplo1 3s;
+    animation-iteration-count: 500000;  
+}
+
+@keyframes exemplo {
+    0% {
+        color: rgb(20, 67, 109);
+    }
+    50% {
+        color: transparent;
+    }
+    100% {
+        color: rgb(20, 67, 109);
+    }
+}
+
+@keyframes exemplo1 {
+    0% {
+        color: transparent;
+    }
+    50% {
+        color: rgb(20, 67, 109);
+    }
+    100% {
+        color: transparent;
+    }
+}
